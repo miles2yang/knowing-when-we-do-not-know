@@ -1,0 +1,16 @@
+Pilot summary
+
+Recorded arm outputs: 4
+Provider log entries: 4
+
+initial: records=1, invalid=0, transport failures=0, unsupported claims=0, supported conditional claims=0
+self_revision: records=1, invalid=0, transport failures=0, unsupported claims=0, supported conditional claims=0
+schema_feedback: records=1, invalid=0, transport failures=0, unsupported claims=0, supported conditional claims=0
+evidence_feedback: records=1, invalid=0, transport failures=0, unsupported claims=0, supported conditional claims=0
+
+Initial outputs eligible for evidence feedback: 1
+Revisions actually receiving substantive evidence feedback: 1
+Unsupported claims and supported claims are assessed only on format-valid outputs; zero counts among invalid outputs do not establish safe abstention. Evidence-arm revisions following an invalid initial answer receive only format feedback.
+Descriptive constructed-task results only. Shared initial outputs and paired cases are dependent. No significance tests or general AI superiority claim.
+Formalization and inference in the disclosed registered family; not unrestricted mechanism discovery.
+Monetary cost: not computed. Missing usage is not zero.

@@ -1,0 +1,17 @@
+{
+  "model_requested": "azure/gpt-5.2",
+  "tasks": 1,
+  "repetitions": 1,
+  "planned_requests": 4,
+  "max_output_tokens": 4096,
+  "mode": "live_api_requested",
+  "created_at_utc": "2026-10-10T00:01:48.746983+00:00",
+  "python": "3.13.5",
+  "sampling_configuration": "API defaults; fixed output ceiling; no reasoning or temperature overrides",
+  "task_scope": "Disclosed registered-family formalization and inference",
+  "credential_saved": false,
+  "protocol_version": "organizational-candidate-loop/1.1",
+  "api_base": "<institutional-litellm-proxy>",
+  "provider_requests_attempted": 4,
+  "completed_run": true
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "task_id": "task-01",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "baseline",
+        "n": 1600,
+        "following_wrong_leader": 1261
+      }
+    ],
+    "alpha": 0.05
+  },
+  {
+    "task_id": "task-02",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "baseline",
+        "n": 1600,
+        "following_wrong_leader": 1261
+      }
+    ],
+    "alpha": 0.05
+  },
+  {
+    "task_id": "task-03",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "anonymous",
+        "n": 1600,
+        "following_wrong_leader": 647
+      }
+    ],
+    "alpha": 0.05
+  },
+  {
+    "task_id": "task-04",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "reliability",
+        "n": 1600,
+        "following_wrong_leader": 330
+      }
+    ],
+    "alpha": 0.05
+  },
+  {
+    "task_id": "task-05",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "independent",
+        "n": 1600,
+        "following_wrong_leader": 465
+      }
+    ],
+    "alpha": 0.05
+  },
+  {
+    "task_id": "task-06",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "combined",
+        "n": 25,
+        "following_wrong_leader": 11
+      }
+    ],
+    "alpha": 0.05
+  },
+  {
+    "task_id": "task-07",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "combined",
+        "n": 25,
+        "following_wrong_leader": 4
+      }
+    ],
+    "alpha": 0.05
+  },
+  {
+    "task_id": "task-08",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "combined",
+        "n": 1600,
+        "following_wrong_leader": 664
+      }
+    ],
+    "alpha": 0.05
+  },
+  {
+    "task_id": "task-09",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "combined",
+        "n": 1600,
+        "following_wrong_leader": 325
+      }
+    ],
+    "alpha": 0.05
+  },
+  {
+    "task_id": "task-10",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "combined",
+        "n": 1600,
+        "following_wrong_leader": 495
+      }
+    ],
+    "alpha": 0.05
+  },
+  {
+    "task_id": "task-11",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "combined",
+        "n": 1600,
+        "following_wrong_leader": 991
+      }
+    ],
+    "alpha": 0.05
+  },
+  {
+    "task_id": "task-12",
+    "question": "A team follows an incorrect leader recommendation (binary Y). Register three working candidate families, not an exhaustive account of reality: N compliance pressure, I informational reliance, S shared erroneous information. For each family the unknown baseline probability is theta in {0.7,0.8,0.9}. Under anonymous decisions N becomes 0.4; under reliability disclosure I becomes 0.2; under independent information S becomes 0.3. Other single interventions leave theta unchanged. Combined intervention applies all three changes, giving N 0.4, I 0.2, S 0.3. These are stipulated, not empirically validated, exclusions. Encode all three nuisance profiles per family under all five interventions and assess the strongest justified mechanism claim from the supplied counts. Keep the registered IDs N, I, S. Do not infer candidate completeness. Additional substantive mechanisms should be investigated later rather than silently replacing the registered family. The simulator truth is unavailable.",
+    "interventions": [
+      "baseline",
+      "anonymous",
+      "reliability",
+      "independent",
+      "combined"
+    ],
+    "evidence": [
+      {
+        "experiment": "combined",
+        "n": 1600,
+        "following_wrong_leader": 325
+      }
+    ],
+    "alpha": 0.05
+  }
+]

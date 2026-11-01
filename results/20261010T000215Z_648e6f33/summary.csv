@@ -1,0 +1,5 @@
+﻿arm,records,transport_failures,invalid_specifications,profile_mismatches,unsupported_registered_claims,supported_conditional_claims,unnecessary_abstentions,usage_records,input_tokens_reported,output_tokens_reported,total_tokens_reported,monetary_cost
+initial,12,0,0,0,0,1,6,12,13767,9995,23762,not_computed
+self_revision,12,0,0,0,1,1,5,12,25209,10808,36017,not_computed
+schema_feedback,12,0,0,0,0,1,6,12,25329,10391,35720,not_computed
+evidence_feedback,12,0,0,0,0,7,0,12,26711,10858,37569,not_computed

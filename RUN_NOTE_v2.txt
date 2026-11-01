@@ -1,0 +1,4 @@
+Run note v2 (2026-10-10 AEDT). Model azure/gpt-5.2 via Macquarie LiteLLM (OPENAI_API_BASE=<institutional-litellm-proxy>), Responses API, default sampling, max_output_tokens 4096. Package used unmodified (proxy base + User-Agent already in v2). 44 offline tests passed.
+- results/20261010T000148Z_b9a3652f: 1-task feasibility (4 calls) — initial format-valid 1/1; substantive evidence feedback delivered 1/1.
+- results/20261010T000215Z_648e6f33: full 12-task pilot (48 calls), all HTTP 200/completed, no transport failures, no retries, no edits.
+v1 results are kept separately outside this repository (not mixed).

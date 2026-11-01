@@ -1,0 +1,75 @@
+{
+  "records": 48,
+  "provider_log_entries": 48,
+  "returned_model_names": [
+    "azure/gpt-5.2"
+  ],
+  "arms": [
+    {
+      "arm": "initial",
+      "records": 12,
+      "transport_failures": 0,
+      "invalid_specifications": 0,
+      "profile_mismatches": 0,
+      "unsupported_registered_claims": 0,
+      "supported_conditional_claims": 1,
+      "unnecessary_abstentions": 6,
+      "usage_records": 12,
+      "input_tokens_reported": 13767,
+      "output_tokens_reported": 9995,
+      "total_tokens_reported": 23762,
+      "monetary_cost": "not_computed"
+    },
+    {
+      "arm": "self_revision",
+      "records": 12,
+      "transport_failures": 0,
+      "invalid_specifications": 0,
+      "profile_mismatches": 0,
+      "unsupported_registered_claims": 1,
+      "supported_conditional_claims": 1,
+      "unnecessary_abstentions": 5,
+      "usage_records": 12,
+      "input_tokens_reported": 25209,
+      "output_tokens_reported": 10808,
+      "total_tokens_reported": 36017,
+      "monetary_cost": "not_computed"
+    },
+    {
+      "arm": "schema_feedback",
+      "records": 12,
+      "transport_failures": 0,
+      "invalid_specifications": 0,
+      "profile_mismatches": 0,
+      "unsupported_registered_claims": 0,
+      "supported_conditional_claims": 1,
+      "unnecessary_abstentions": 6,
+      "usage_records": 12,
+      "input_tokens_reported": 25329,
+      "output_tokens_reported": 10391,
+      "total_tokens_reported": 35720,
+      "monetary_cost": "not_computed"
+    },
+    {
+      "arm": "evidence_feedback",
+      "records": 12,
+      "transport_failures": 0,
+      "invalid_specifications": 0,
+      "profile_mismatches": 0,
+      "unsupported_registered_claims": 0,
+      "supported_conditional_claims": 7,
+      "unnecessary_abstentions": 0,
+      "usage_records": 12,
+      "input_tokens_reported": 26711,
+      "output_tokens_reported": 10858,
+      "total_tokens_reported": 37569,
+      "monetary_cost": "not_computed"
+    }
+  ],
+  "initial_outputs_eligible_for_evidence_feedback": 12,
+  "revisions_with_substantive_evidence_feedback": 12,
+  "failure_interpretation": "Unsupported claims and supported claims are assessed only on format-valid outputs; zero counts among invalid outputs do not establish safe abstention. Evidence-arm revisions following an invalid initial answer receive only format feedback.",
+  "interpretation": "Descriptive constructed-task results only. Shared initial outputs and paired cases are dependent. No significance tests or general AI superiority claim.",
+  "scope": "Formalization and inference in the disclosed registered family; not unrestricted mechanism discovery.",
+  "missing_cost": "not_computed; verify applicable pricing before calculating monetary cost"
+}

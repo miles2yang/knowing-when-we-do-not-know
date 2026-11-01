@@ -1,0 +1,10 @@
+{
+  "offline_tests_passed": 44,
+  "mocked_full_pilot_requests": 48,
+  "authenticated_model_calls_for_v2_in_preparation": 0,
+  "uploaded_v1_full_pilot_records_recomputed": 48,
+  "uploaded_v1_evaluation_discrepancies": 0,
+  "uploaded_v1_substantive_feedback_delivered": 0,
+  "protocol_version": "organizational-candidate-loop/1.1",
+  "changes_after_observing_v1": "Prompt contract, common disclosed decision rule, actionable schema errors, feedback delivery counters, proxy transport configuration; requires a separate new development run."
+}

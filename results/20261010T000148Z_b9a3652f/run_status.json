@@ -1,0 +1,12 @@
+{
+  "tasks": 1,
+  "repetitions": 1,
+  "provider_calls_attempted": 4,
+  "records": 4,
+  "configuration": "azure/gpt-5.2",
+  "transport": "openai_responses_api",
+  "completed_run": true,
+  "live_model_performance_established": false,
+  "missing_usage": "Collect exact model version, settings, tokens and cost in trusted provider log",
+  "limits": "Controlled formal-family tasks; repeated conditions and task pairs are dependent; no confirmatory population inference"
+}

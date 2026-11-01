@@ -1,0 +1,914 @@
+{
+  "cases": [
+    {
+      "task_id": "task-01",
+      "world": "N",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "baseline",
+            "n": 1600,
+            "following_wrong_leader": 1261
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "baseline",
+            "n": 1600,
+            "k": 1261,
+            "mean": 0.788125,
+            "radius": 0.04069059076796823,
+            "lower": 0.7474344092320317,
+            "upper": 0.8288155907679682
+          }
+        ],
+        "compatible_models": [
+          {
+            "id": "N@4/5",
+            "family": "N",
+            "theta": "4/5"
+          },
+          {
+            "id": "I@4/5",
+            "family": "I",
+            "theta": "4/5"
+          },
+          {
+            "id": "S@4/5",
+            "family": "S",
+            "theta": "4/5"
+          }
+        ],
+        "compatible_families": [
+          "I",
+          "N",
+          "S"
+        ],
+        "status": "structural_ambiguity",
+        "design_gaps": [
+          {
+            "pair": "I / N",
+            "gap": "0"
+          },
+          {
+            "pair": "I / S",
+            "gap": "0"
+          },
+          {
+            "pair": "N / S",
+            "gap": "0"
+          }
+        ],
+        "suggestions": [
+          {
+            "experiment": "combined",
+            "worst_pair_distance": "1/10"
+          },
+          {
+            "experiment": "anonymous",
+            "worst_pair_distance": "0"
+          },
+          {
+            "experiment": "reliability",
+            "worst_pair_distance": "0"
+          },
+          {
+            "experiment": "independent",
+            "worst_pair_distance": "0"
+          }
+        ],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    },
+    {
+      "task_id": "task-02",
+      "world": "I",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "baseline",
+            "n": 1600,
+            "following_wrong_leader": 1261
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "baseline",
+            "n": 1600,
+            "k": 1261,
+            "mean": 0.788125,
+            "radius": 0.04069059076796823,
+            "lower": 0.7474344092320317,
+            "upper": 0.8288155907679682
+          }
+        ],
+        "compatible_models": [
+          {
+            "id": "N@4/5",
+            "family": "N",
+            "theta": "4/5"
+          },
+          {
+            "id": "I@4/5",
+            "family": "I",
+            "theta": "4/5"
+          },
+          {
+            "id": "S@4/5",
+            "family": "S",
+            "theta": "4/5"
+          }
+        ],
+        "compatible_families": [
+          "I",
+          "N",
+          "S"
+        ],
+        "status": "structural_ambiguity",
+        "design_gaps": [
+          {
+            "pair": "I / N",
+            "gap": "0"
+          },
+          {
+            "pair": "I / S",
+            "gap": "0"
+          },
+          {
+            "pair": "N / S",
+            "gap": "0"
+          }
+        ],
+        "suggestions": [
+          {
+            "experiment": "combined",
+            "worst_pair_distance": "1/10"
+          },
+          {
+            "experiment": "anonymous",
+            "worst_pair_distance": "0"
+          },
+          {
+            "experiment": "reliability",
+            "worst_pair_distance": "0"
+          },
+          {
+            "experiment": "independent",
+            "worst_pair_distance": "0"
+          }
+        ],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    },
+    {
+      "task_id": "task-03",
+      "world": "N",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "anonymous",
+            "n": 1600,
+            "following_wrong_leader": 647
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "anonymous",
+            "n": 1600,
+            "k": 647,
+            "mean": 0.404375,
+            "radius": 0.04069059076796823,
+            "lower": 0.36368440923203177,
+            "upper": 0.4450655907679682
+          }
+        ],
+        "compatible_models": [
+          {
+            "id": "N@7/10",
+            "family": "N",
+            "theta": "7/10"
+          },
+          {
+            "id": "N@4/5",
+            "family": "N",
+            "theta": "4/5"
+          },
+          {
+            "id": "N@9/10",
+            "family": "N",
+            "theta": "9/10"
+          }
+        ],
+        "compatible_families": [
+          "N"
+        ],
+        "status": "scoped_singleton",
+        "design_gaps": [],
+        "suggestions": [],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    },
+    {
+      "task_id": "task-04",
+      "world": "I",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "reliability",
+            "n": 1600,
+            "following_wrong_leader": 330
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "reliability",
+            "n": 1600,
+            "k": 330,
+            "mean": 0.20625,
+            "radius": 0.04069059076796823,
+            "lower": 0.16555940923203177,
+            "upper": 0.2469405907679682
+          }
+        ],
+        "compatible_models": [
+          {
+            "id": "I@7/10",
+            "family": "I",
+            "theta": "7/10"
+          },
+          {
+            "id": "I@4/5",
+            "family": "I",
+            "theta": "4/5"
+          },
+          {
+            "id": "I@9/10",
+            "family": "I",
+            "theta": "9/10"
+          }
+        ],
+        "compatible_families": [
+          "I"
+        ],
+        "status": "scoped_singleton",
+        "design_gaps": [],
+        "suggestions": [],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    },
+    {
+      "task_id": "task-05",
+      "world": "S",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "independent",
+            "n": 1600,
+            "following_wrong_leader": 465
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "independent",
+            "n": 1600,
+            "k": 465,
+            "mean": 0.290625,
+            "radius": 0.04069059076796823,
+            "lower": 0.2499344092320318,
+            "upper": 0.33131559076796824
+          }
+        ],
+        "compatible_models": [
+          {
+            "id": "S@7/10",
+            "family": "S",
+            "theta": "7/10"
+          },
+          {
+            "id": "S@4/5",
+            "family": "S",
+            "theta": "4/5"
+          },
+          {
+            "id": "S@9/10",
+            "family": "S",
+            "theta": "9/10"
+          }
+        ],
+        "compatible_families": [
+          "S"
+        ],
+        "status": "scoped_singleton",
+        "design_gaps": [],
+        "suggestions": [],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    },
+    {
+      "task_id": "task-06",
+      "world": "N",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "combined",
+            "n": 25,
+            "following_wrong_leader": 11
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "combined",
+            "n": 25,
+            "k": 11,
+            "mean": 0.44,
+            "radius": 0.32552472614374584,
+            "lower": 0.11447527385625417,
+            "upper": 0.7655247261437459
+          }
+        ],
+        "compatible_models": [
+          {
+            "id": "N@7/10",
+            "family": "N",
+            "theta": "7/10"
+          },
+          {
+            "id": "N@4/5",
+            "family": "N",
+            "theta": "4/5"
+          },
+          {
+            "id": "N@9/10",
+            "family": "N",
+            "theta": "9/10"
+          },
+          {
+            "id": "I@7/10",
+            "family": "I",
+            "theta": "7/10"
+          },
+          {
+            "id": "I@4/5",
+            "family": "I",
+            "theta": "4/5"
+          },
+          {
+            "id": "I@9/10",
+            "family": "I",
+            "theta": "9/10"
+          },
+          {
+            "id": "S@7/10",
+            "family": "S",
+            "theta": "7/10"
+          },
+          {
+            "id": "S@4/5",
+            "family": "S",
+            "theta": "4/5"
+          },
+          {
+            "id": "S@9/10",
+            "family": "S",
+            "theta": "9/10"
+          }
+        ],
+        "compatible_families": [
+          "I",
+          "N",
+          "S"
+        ],
+        "status": "finite_sample_ambiguity",
+        "design_gaps": [
+          {
+            "pair": "I / N",
+            "gap": "1/5"
+          },
+          {
+            "pair": "I / S",
+            "gap": "1/10"
+          },
+          {
+            "pair": "N / S",
+            "gap": "1/10"
+          }
+        ],
+        "suggestions": [
+          {
+            "experiment": "baseline",
+            "worst_pair_distance": "0"
+          },
+          {
+            "experiment": "anonymous",
+            "worst_pair_distance": "0"
+          },
+          {
+            "experiment": "reliability",
+            "worst_pair_distance": "0"
+          },
+          {
+            "experiment": "independent",
+            "worst_pair_distance": "0"
+          }
+        ],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    },
+    {
+      "task_id": "task-07",
+      "world": "I",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "combined",
+            "n": 25,
+            "following_wrong_leader": 4
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "combined",
+            "n": 25,
+            "k": 4,
+            "mean": 0.16,
+            "radius": 0.32552472614374584,
+            "lower": 0,
+            "upper": 0.48552472614374587
+          }
+        ],
+        "compatible_models": [
+          {
+            "id": "N@7/10",
+            "family": "N",
+            "theta": "7/10"
+          },
+          {
+            "id": "N@4/5",
+            "family": "N",
+            "theta": "4/5"
+          },
+          {
+            "id": "N@9/10",
+            "family": "N",
+            "theta": "9/10"
+          },
+          {
+            "id": "I@7/10",
+            "family": "I",
+            "theta": "7/10"
+          },
+          {
+            "id": "I@4/5",
+            "family": "I",
+            "theta": "4/5"
+          },
+          {
+            "id": "I@9/10",
+            "family": "I",
+            "theta": "9/10"
+          },
+          {
+            "id": "S@7/10",
+            "family": "S",
+            "theta": "7/10"
+          },
+          {
+            "id": "S@4/5",
+            "family": "S",
+            "theta": "4/5"
+          },
+          {
+            "id": "S@9/10",
+            "family": "S",
+            "theta": "9/10"
+          }
+        ],
+        "compatible_families": [
+          "I",
+          "N",
+          "S"
+        ],
+        "status": "finite_sample_ambiguity",
+        "design_gaps": [
+          {
+            "pair": "I / N",
+            "gap": "1/5"
+          },
+          {
+            "pair": "I / S",
+            "gap": "1/10"
+          },
+          {
+            "pair": "N / S",
+            "gap": "1/10"
+          }
+        ],
+        "suggestions": [
+          {
+            "experiment": "baseline",
+            "worst_pair_distance": "0"
+          },
+          {
+            "experiment": "anonymous",
+            "worst_pair_distance": "0"
+          },
+          {
+            "experiment": "reliability",
+            "worst_pair_distance": "0"
+          },
+          {
+            "experiment": "independent",
+            "worst_pair_distance": "0"
+          }
+        ],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    },
+    {
+      "task_id": "task-08",
+      "world": "N",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "combined",
+            "n": 1600,
+            "following_wrong_leader": 664
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "combined",
+            "n": 1600,
+            "k": 664,
+            "mean": 0.415,
+            "radius": 0.04069059076796823,
+            "lower": 0.37430940923203176,
+            "upper": 0.4556905907679682
+          }
+        ],
+        "compatible_models": [
+          {
+            "id": "N@7/10",
+            "family": "N",
+            "theta": "7/10"
+          },
+          {
+            "id": "N@4/5",
+            "family": "N",
+            "theta": "4/5"
+          },
+          {
+            "id": "N@9/10",
+            "family": "N",
+            "theta": "9/10"
+          }
+        ],
+        "compatible_families": [
+          "N"
+        ],
+        "status": "scoped_singleton",
+        "design_gaps": [],
+        "suggestions": [],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    },
+    {
+      "task_id": "task-09",
+      "world": "I",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "combined",
+            "n": 1600,
+            "following_wrong_leader": 325
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "combined",
+            "n": 1600,
+            "k": 325,
+            "mean": 0.203125,
+            "radius": 0.04069059076796823,
+            "lower": 0.16243440923203178,
+            "upper": 0.24381559076796822
+          }
+        ],
+        "compatible_models": [
+          {
+            "id": "I@7/10",
+            "family": "I",
+            "theta": "7/10"
+          },
+          {
+            "id": "I@4/5",
+            "family": "I",
+            "theta": "4/5"
+          },
+          {
+            "id": "I@9/10",
+            "family": "I",
+            "theta": "9/10"
+          }
+        ],
+        "compatible_families": [
+          "I"
+        ],
+        "status": "scoped_singleton",
+        "design_gaps": [],
+        "suggestions": [],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    },
+    {
+      "task_id": "task-10",
+      "world": "S",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "combined",
+            "n": 1600,
+            "following_wrong_leader": 495
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "combined",
+            "n": 1600,
+            "k": 495,
+            "mean": 0.309375,
+            "radius": 0.04069059076796823,
+            "lower": 0.2686844092320318,
+            "upper": 0.3500655907679682
+          }
+        ],
+        "compatible_models": [
+          {
+            "id": "S@7/10",
+            "family": "S",
+            "theta": "7/10"
+          },
+          {
+            "id": "S@4/5",
+            "family": "S",
+            "theta": "4/5"
+          },
+          {
+            "id": "S@9/10",
+            "family": "S",
+            "theta": "9/10"
+          }
+        ],
+        "compatible_families": [
+          "S"
+        ],
+        "status": "scoped_singleton",
+        "design_gaps": [],
+        "suggestions": [],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    },
+    {
+      "task_id": "task-11",
+      "world": "D",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "combined",
+            "n": 1600,
+            "following_wrong_leader": 991
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "combined",
+            "n": 1600,
+            "k": 991,
+            "mean": 0.619375,
+            "radius": 0.04069059076796823,
+            "lower": 0.5786844092320318,
+            "upper": 0.6600655907679682
+          }
+        ],
+        "compatible_models": [],
+        "compatible_families": [],
+        "status": "no_compatible_candidate",
+        "design_gaps": [],
+        "suggestions": [],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    },
+    {
+      "task_id": "task-12",
+      "world": "H",
+      "theta": "4/5",
+      "seed": 41,
+      "reference": {
+        "schema": "org-mechanism-identification/2.0",
+        "evidence": [
+          {
+            "experiment": "combined",
+            "n": 1600,
+            "following_wrong_leader": 325
+          }
+        ],
+        "alpha": 0.05,
+        "planned_interventions": 5,
+        "bands": [
+          {
+            "experiment": "combined",
+            "n": 1600,
+            "k": 325,
+            "mean": 0.203125,
+            "radius": 0.04069059076796823,
+            "lower": 0.16243440923203178,
+            "upper": 0.24381559076796822
+          }
+        ],
+        "compatible_models": [
+          {
+            "id": "I@7/10",
+            "family": "I",
+            "theta": "7/10"
+          },
+          {
+            "id": "I@4/5",
+            "family": "I",
+            "theta": "4/5"
+          },
+          {
+            "id": "I@9/10",
+            "family": "I",
+            "theta": "9/10"
+          }
+        ],
+        "compatible_families": [
+          "I"
+        ],
+        "status": "scoped_singleton",
+        "design_gaps": [],
+        "suggestions": [],
+        "scope": "Conditional on nine registered candidate profiles, known exclusion restrictions and independent Bernoulli sampling. Candidate-family identification is not identification of an unrestricted real mechanism.",
+        "open_world_warning": "An omitted mechanism observationally and interventionally equivalent to a candidate cannot be detected with these observables.",
+        "method": "Simultaneous fixed-batch Hoeffding compatibility bands; not posterior model probabilities"
+      }
+    }
+  ],
+  "reference_candidates": [
+    {
+      "id": "N",
+      "profiles": [
+        {
+          "baseline": "7/10",
+          "anonymous": "2/5",
+          "reliability": "7/10",
+          "independent": "7/10",
+          "combined": "2/5"
+        },
+        {
+          "baseline": "4/5",
+          "anonymous": "2/5",
+          "reliability": "4/5",
+          "independent": "4/5",
+          "combined": "2/5"
+        },
+        {
+          "baseline": "9/10",
+          "anonymous": "2/5",
+          "reliability": "9/10",
+          "independent": "9/10",
+          "combined": "2/5"
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "profiles": [
+        {
+          "baseline": "7/10",
+          "anonymous": "7/10",
+          "reliability": "1/5",
+          "independent": "7/10",
+          "combined": "1/5"
+        },
+        {
+          "baseline": "4/5",
+          "anonymous": "4/5",
+          "reliability": "1/5",
+          "independent": "4/5",
+          "combined": "1/5"
+        },
+        {
+          "baseline": "9/10",
+          "anonymous": "9/10",
+          "reliability": "1/5",
+          "independent": "9/10",
+          "combined": "1/5"
+        }
+      ]
+    },
+    {
+      "id": "S",
+      "profiles": [
+        {
+          "baseline": "7/10",
+          "anonymous": "7/10",
+          "reliability": "7/10",
+          "independent": "3/10",
+          "combined": "3/10"
+        },
+        {
+          "baseline": "4/5",
+          "anonymous": "4/5",
+          "reliability": "4/5",
+          "independent": "3/10",
+          "combined": "3/10"
+        },
+        {
+          "baseline": "9/10",
+          "anonymous": "9/10",
+          "reliability": "9/10",
+          "independent": "3/10",
+          "combined": "3/10"
+        }
+      ]
+    }
+  ]
+}
